@@ -355,6 +355,8 @@
                 checkbox.parentNode.insertBefore(label, checkbox);
                 label.appendChild(checkbox);
                 label.appendChild(slider);
+		extContainer.innerHTML = "";
+    	    createExtensionButtons();
             });
         });
 	    
@@ -810,7 +812,7 @@
         }
 
         async function GetContributorData(){
-            let contributors = await (await fetch("https://api.github.com/repos/Blobby-Boi/ExtPrint3r/contributors")).json()
+            let contributors = await (await fetch("https://api.github.com/repos/dmdtutorials-com/ExtentionPrint3r/contributors")).json()
             return contributors
         }
         const contributorList = document.querySelector("#contributor-list")
