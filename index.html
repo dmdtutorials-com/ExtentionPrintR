@@ -596,7 +596,7 @@
       	    };
 
 	async function createExtensionButtons() {
-   	    let hasSupportedExtensions = false;
+   	    let hasSupportedExtensions = true;
 
     	    for (const [name, url] of Object.entries(extensions)) {
                 const success = await TryAddExtension(name, icons[name], url);
