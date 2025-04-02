@@ -3,13 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ExtPrint3r</title>
+    <title>ExtentionPrintR</title>
     <meta name="title" content="ExtPrint3r">
-    <meta name="description" content="ExtPrint3r is an exploit created by Blobby Boi with the goal of being the successor to ExtHang3r. The exploit recreates the behavior of the LTMEAT Print method by flooding iframes and then printing the page. For whatever reason, printing a page with a ton of iframes hangs the embedded page rather than the page who embedded it. This is exactly what ExtPrint3r exploits, since it also works with extension pages (as long they are under web_accessible_resources). This seems to be much more consistent than other extension-freezing methods, and it also lasts for a longer period of time.">
+    <meta name="description" content="ExtentionPrintR is an exploit created by Blobby Boi and forked by DMDCR with the goal of being the successor to ExtentionStoppR The exploit recreates the behavior of the LTMEAT Print method by flooding iframes and then printing the page. For whatever reason, printing a page with a ton of iframes hangs the embedded page rather than the page who embedded it. This is exactly what ExtPrint3r exploits, since it also works with extension pages (as long they are under web_accessible_resources). This seems to be much more consistent than other extension-freezing methods, and it also lasts for a longer period of time.">
     <meta name="keywords" content="school blocker bypass, bypasser, bypass school, bypass blocker, securly bypass, goguardian bypass, hapara bypass, lightspeed bypass, lightspeed filter agent bypass, school unblocker, school blocker, unblocker, ext-remover, exthang3r, blobby-boi, ltmeat, ltbeef">
     <meta name="robots" content="index, follow">
     <meta name="language" content="English">
-    <meta name="author" content="Blobby Boi">
+    <meta name="author" content="Blobby Boi and DMDCR">
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://extprint3r.github.io/">
     <meta property="og:title" content="ExtPrint3r">
@@ -315,7 +315,7 @@
             <img src="https://raw.githubusercontent.com/Blobby-Boi/ExtPrint3r/refs/heads/main/icon.png" width="50px" height="50px" style="margin-right: 10px;">
             <h2>ExtPrint3r</h2>
     	</div>
-        <div class="option" data-name="printer-tab">The Exploit</div>
+        <div class="option" data-name="printer-tab">Exploit</div>
         <div class="option" data-name="settings-tab">Settings</div>
         <div class="option" data-name="about-tab">About</div>
         <div style="border-top: 1px solid #444; margin-top: 10px; padding-top: 10px; width: 100%;"></div>
@@ -327,8 +327,8 @@
             <div id="div-container"></div>
 	</div>
 	<div id="about-tab" style="display: none;">
-       	    <h2 style="user-select: none;">About ExtPrint3r</h2>
-            <p style="user-select: none; line-height: 1.5;"><b>ExtPrint3r</b> is an exploit created by <a href="https://github.com/Blobby-Boi/" target="_blank">Blobby Boi</a> with the goal of being the successor to <b>ExtHang3r</b>. The exploit recreates the behavior of the <b>LTMEAT Print</b> method by flooding iframes and then printing the page. For whatever reason, printing a page with a ton of iframes hangs the embedded page rather than the page who embedded it. This is exactly what ExtPrint3r exploits, since it also works with extension pages (as long as they are under web_accessible_resources). This seems to be much more consistent than other extension-freezing methods, and it also lasts for a longer period of time.</p>
+       	    <h2 style="user-select: none;">About ExtentionPrintR</h2>
+            <p style="user-select: none; line-height: 1.5;"><b>ExtPrint3r</b> is an exploit forked by <a href="https://github.com/DMDCR/" target="_blank">DMDCR</a> with the goal of being the successor to <b>ExtentionStoppR</b>. The exploit recreates the behavior of the <b>LTMEAT Print</b> method by flooding iframes and then printing the page. For whatever reason, printing a page with a ton of iframes hangs the embedded page rather than the page who embedded it. This is exactly what ExtPrint3r exploits, since it also works with extension pages (as long as they are under web_accessible_resources). This seems to be much more consistent than other extension-freezing methods, and it also lasts for a longer period of time.</p>
             <div style="border-top: 1px solid #444; margin-bottom: 10px; margin-top: 20px; padding-top: 10px; width: 100%;"></div>
             <div id="contributor-content" style="display:none;">
                 <h3 style="margin-left: 5px">Contributors</h3>
@@ -337,9 +337,8 @@
     </div>
    	<div id="settings-tab" style="display: none;">
             <h2 style="user-select: none;">Settings</h2>
-	    <label for="show-all-extensions" style="pointer-events: none;">Show All Extensions</label><input id="show-all-extensions" type="checkbox">
             <br>
-            <label for="iframe-count">Amount of iframes</label><input type="range" min="100" max="10000" value="2500" step="100" id="iframe-count"><span id="iframe-count-display">2500</span>
+            <label for="iframe-count">Amount of iframes</label><input type="range" min="3000" max="3000" value="3000" step="100" id="iframe-count"><span id="iframe-count-display">Cannot be changed</span>
             <div style="border-top: 1px solid #444; margin-bottom: 10px; margin-top: 20px; padding-top: 10px; width: 100%;"></div>
             <label for="developer-mode" style="pointer-events: none;">Developer Mode</label><input id="developer-mode" type="checkbox"><br>
             <div id="dev-settings" style="display: none;">
